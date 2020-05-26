@@ -1,0 +1,17 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .error {
+    background-color: red;
+    color: #fff;
+    transition: all 0.2s linear;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+}

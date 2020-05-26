@@ -1,5 +1,18 @@
 .sign-in {
-  width: 30vw;
+  width: 380px;
   display: flex;
   flex-direction: column;
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .error {
+    background-color: red;
+    color: #fff;
+    transition: all 0.2s linear;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
 }
